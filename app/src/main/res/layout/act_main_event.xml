@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <com.zhy.view.event.LinearLayout1
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:background="@android:color/holo_red_dark"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center">
+
+        <com.zhy.view.event.LinearLayout2
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@android:color/holo_blue_dark"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center">
+
+            <com.zhy.view.event.TextView1
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:background="@android:color/holo_green_dark"/>
+        </com.zhy.view.event.LinearLayout2>
+    </com.zhy.view.event.LinearLayout1>
+</LinearLayout>
